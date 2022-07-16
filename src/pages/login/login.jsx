@@ -41,9 +41,9 @@ export const Login = () => {
         passwordRef.current.value = null;
         subdomainRef.current.value = null;
 
-        usernameRef.current.className = 'form-control is-invalid';
-        passwordRef.current.className = 'form-control is-invalid';
-        subdomainRef.current.className = 'form-control is-invalid';
+        usernameRef.current.className = 'form-control is-invalid text-center my-3';
+        passwordRef.current.className = 'form-control is-invalid text-center my-3';
+        subdomainRef.current.className = 'form-control is-invalid text-center my-3';
     }
 
     return (
