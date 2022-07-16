@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.link {
+  margin-left: 50px;
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  padding: 10px 20px 10px 20px;
+}
+
+.link:hover {
+  color: white;
+}
